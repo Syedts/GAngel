@@ -21,12 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "Sign-in page", Toast.LENGTH_SHORT).show();
     }
-    public void createClk(View view)
+    public void CreateAccClk(View view)
     {
         Intent createAcc = new Intent(this, SignIn.class);   //// Sign in till Sign up
         startActivity(createAcc);
 
         Toast.makeText(this, "Sign-up page", Toast.LENGTH_SHORT).show();
     }
-    
+
+
 }
